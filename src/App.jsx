@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar/Navbar";
 import HomeContent from "./components/HomeContent/HomeContent";
-import Popular from "./components/Popular/popular";
+import Popular from "./components/Popular/Popular";
 import Benefit from "./components/Benefits/Benefit";
 import Question from "./components/Questoins/Question";
 import EmailReg from "./components/EmailReg/EmailReg";
