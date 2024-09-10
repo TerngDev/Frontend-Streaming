@@ -1,0 +1,42 @@
+.contactContainer {
+  padding: 0 170px;
+  padding-top: 50px;
+  text-align: center;
+  background-color: black;
+  color: rgba(255, 255, 255, 0.479);
+}
+
+.contactContainer h1 {
+  font-size: 16px;
+  text-align: left;
+}
+
+.listsContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.listsContainer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.listsContainer li {
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+.listsContainer li:hover {
+  color: #e50914; /* Netflix red */
+}
+
+.footer p {
+    background-color: black;
+    margin-bottom: 0;
+    padding: 50px;
+}

@@ -1,0 +1,66 @@
+.benefitContainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -50px;
+  background-color: #000;
+  height: 100%;
+  width: 100%;
+  padding: 0 170px;
+  padding-top: 50px;
+}
+
+.benefitContainer h1 {
+  font-size: 25px;
+  color: white;
+}
+
+.benefitCardContainer ul,
+.benefitCardContainer h1 {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.benefitCardContainer li {
+  background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+  border-radius: 8px;
+  margin-top: 15px;
+  padding: 20px;
+  width: calc(25% - 10px);
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  position: relative;
+}
+.benefitCardContainer li span {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 120px;
+  color: #ffffffb2;
+}
+
+.benefitCardContainer li svg {
+  position: absolute;
+  bottom: 10px; /* Adjust this value to fine-tune the vertical position */
+  right: 10px; /* Adjust this value to fine-tune the horizontal position */
+  
+}
+
+@media (max-width: 1024px) {
+  .benefitCardContainer li {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 768px) {
+  .benefitCardContainer li {
+    width: 100%;
+  }
+}

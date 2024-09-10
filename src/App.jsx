@@ -1,13 +1,21 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import Navbar from "./components/Navbar/Navbar";
+import HomeContent from "./components/HomeContent/HomeContent";
+import Popular from "./components/Popular/popular";
+import Benefit from "./components/Benefits/Benefit";
+import Question from "./components/Questoins/Question";
+import EmailReg from "./components/EmailReg/EmailReg";
+import Contact from "./components/Contact/Contact";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <div>Hello World</div>
+      <Navbar />
+      <HomeContent />
+      <Popular />
+      <Benefit />
+      <Question />
+      <EmailReg />
+      <Contact />
     </>
   );
 }
