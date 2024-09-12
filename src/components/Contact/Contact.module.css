@@ -36,7 +36,24 @@
 }
 
 .footer p {
-    background-color: black;
-    margin-bottom: 0;
-    padding: 50px;
+  background-color: black;
+  margin-bottom: 0;
+  padding: 50px;
+}
+
+@media (max-width: 768px) {
+  .contactContainer {
+    padding: 0 10px; /* Adjust padding for smaller screens */
+    padding-top: 15px;
+  }
+
+  .listsContainer {
+    flex-direction: row; /* Stack lists vertically */
+    align-items: center; /* Center-align items */
+  }
+
+  .listsContainer ul {
+    margin-bottom: 20px; /* Space between stacked lists */
+  }
+
 }

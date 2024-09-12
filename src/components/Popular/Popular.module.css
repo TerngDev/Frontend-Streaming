@@ -149,3 +149,48 @@
 .scrollButtonRight {
   right: 110px;
 }
+
+@media (max-width: 768px) {
+  .popularContentContainer {
+    padding: 0 20px;
+  }
+
+  .popularCardContainer li {
+    width: calc(100% / 3); /* Show 3 items at a time on smaller screens */
+    margin-right: 10px;
+  }
+
+  .scrollButtonLeft {
+    left: 10px;
+  }
+
+  .scrollButtonRight {
+    right: 10px;
+  }
+}
+
+/* For extra-small screens (mobile devices) */
+@media (max-width: 480px) {
+  .popularContainer h1 {
+    font-size: 18px;
+  }
+
+  .popularCardContainer li {
+    width: calc(100% / 2); /* Show 2 items at a time on mobile */
+    margin-right: 5px;
+  }
+
+  .scrollButton {
+    font-size: 20px;
+    padding: 5px;
+    height: 50px;
+  }
+
+  .scrollButtonLeft {
+    left: 5px;
+  }
+
+  .scrollButtonRight {
+    right: 5px;
+  }
+}

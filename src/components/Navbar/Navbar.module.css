@@ -50,3 +50,56 @@
 .navLoginContainer button:hover {
   background-color: rgba(151, 4, 4, 0.979);
 }
+
+@media (max-width: 768px) {
+  .navContainer {
+    padding: 0 15px;
+  }
+
+  .logoContainer svg {
+    width: 120px;
+    height: 32px;
+  }
+
+  .navLoginContainer select {
+    width: 80px;
+  }
+
+  .navLoginContainer button {
+    padding: 4px 12px;
+  }
+}
+
+/* Responsive for smartphones (widths 480px and below) */
+@media (max-width: 480px) {
+  .navContainer {
+    padding: 0 20px;
+    min-height: 70px;
+    justify-content: space-between;
+  }
+
+  .logoContainer {
+    margin-bottom: 10px;
+  }
+
+  .logoContainer svg {
+    width: 100px;
+    height: 28px;
+  }
+
+  .navLoginContainer {
+    align-items: center;
+  }
+
+  .navLoginContainer select, 
+  .navLoginContainer button {
+    margin-left: 10px;
+    margin-bottom: 8px;
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .navLoginContainer button {
+    padding: 4px 5px;
+  }
+}

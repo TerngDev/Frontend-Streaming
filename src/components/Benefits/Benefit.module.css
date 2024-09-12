@@ -53,13 +53,26 @@
   
 }
 
-@media (max-width: 1024px) {
+
+@media (max-width: 1450px) {
+  .benefitContainer h1 {
+    text-align: center;
+  }
+
   .benefitCardContainer li {
-    width: calc(50% - 20px);
+    width: 100%;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 700px) {
+  .benefitContainer {
+    padding: 0;
+  }
+
+  .benefitCardContainer {
+    padding: 0;
+  }
+
   .benefitCardContainer li {
     width: 100%;
   }

@@ -67,8 +67,13 @@
 }
 
 @media (max-width: 780px) {
-    .formContainer form {
-        flex-direction: column
-        ;
-    }
+  .formContainer form {
+    width: 90%; /* Adjust width for smaller screens */
+  }
+
+  .formContainer button {
+    width: 50%; /* Make button full-width */
+    font-size: 17px; /* Adjust font size for better fit */
+    padding: 0px; /* Adjust padding */
+  }
 }

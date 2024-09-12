@@ -76,3 +76,26 @@
   max-height: 250px; /* Adjust based on the expected content height */
   padding: 10px 20px;
 }
+
+@media (max-width: 768px) {
+  .questionContainer {
+    padding: 0 20px; /* Adjust padding for smaller screens */
+  }
+
+  .questionCardContainer {
+    padding: 0; /* Ensure no extra padding */
+  }
+
+  .questionCardContainer li {
+    width: 100%; /* Ensure cards take full width */
+    flex-direction: column; /* Stack content vertically */
+  }
+
+  .questionItemHeader {
+    padding: 10px 20px; /* Adjust padding for smaller screens */
+  }
+
+  .expanded .content {
+    max-height: 1000px;
+  }
+}
