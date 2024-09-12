@@ -48,8 +48,8 @@
   }
 
   .listsContainer {
-    flex-direction: row; /* Stack lists vertically */
-    align-items: center; /* Center-align items */
+    flex-direction: column; /* Stack lists vertically */
+    align-items: flex-start; /* Center-align items */
   }
 
   .listsContainer ul {
