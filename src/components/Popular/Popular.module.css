@@ -150,9 +150,35 @@
   right: 110px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
+  .cardWrapper {
+    padding: 0 20px; /* Adjust padding for smaller screens */
+    gap: 15px; /* Reduce space between cards */
+  }
+
+  .card {
+    flex: 1 1 calc(33.33% - 15px); /* Adjust card width for slightly smaller screens */
+  }
+}
+
+@media (max-width: 800px) {
+  .cardWrapper {
+    gap: 10px; /* Further reduce space between cards */
+  }
+
+  .card {
+    flex: 1 1 calc(50% - 10px); /* Adjust card width for medium screens */
+  }
+}
+
+@media (max-width: 1200px) {
   .popularContentContainer {
     padding: 0 20px;
+    top: -45px;
+  }
+
+  .popularContainer h1 {
+    font-size: 18px;
   }
 
   .popularCardContainer li {
@@ -171,8 +197,8 @@
 
 /* For extra-small screens (mobile devices) */
 @media (max-width: 480px) {
-  .popularContainer h1 {
-    font-size: 18px;
+  .popularContentContainer {
+    top: -45px;
   }
 
   .popularCardContainer li {

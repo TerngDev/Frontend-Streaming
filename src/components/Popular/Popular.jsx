@@ -72,9 +72,11 @@ const Popular = () => {
               >
                 <li>
                   <label>1</label>
-                  <div style={{
+                  <div
+                    style={{
                       backgroundImage: `url(https://m.media-amazon.com/images/I/81ai6zx6eXL._AC_SL1304_.jpg)`,
-                    }}></div>
+                    }}
+                  ></div>
                 </li>
                 <li>
                   <label>2</label>
